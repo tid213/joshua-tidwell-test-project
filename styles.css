@@ -31,6 +31,10 @@ section h2{
     margin-top: 25px;
 }
 
+.product-image-div{
+    position: relative;
+}
+
 .product-image{
     width: 375px;
     height: 375px;
@@ -48,6 +52,7 @@ section h2{
 .product-name-rating-div{
     display: flex;
     align-items: center;
+    margin-left: .5rem;
 }
 
 .product-rating{
@@ -81,6 +86,7 @@ section h2{
 .product-price-div{
     display: flex;
     flex-direction: column;
+    margin-left: .5rem;
 }
 
 .product-price-div p{
@@ -109,6 +115,7 @@ section h2{
 
 .product-info-div{
     display: flex;
+    margin-left: .5rem;
 }
 
 .product-firmness, .product-thickness, .product-other{
@@ -121,6 +128,10 @@ section h2{
     font-size: 12px;
     margin-left: .25rem;
     color: #6d6d6d;
+}
+
+.product-availability-div{
+    margin-left: .5rem;
 }
 
 .product-availability-div p{
@@ -192,6 +203,10 @@ section h2{
 .sale-price{
     padding-right: 1rem;
     padding-left: .5rem;
+}
+
+.add-to-cart-button-desktop-div{
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -312,4 +327,49 @@ section h2{
     .add-to-cart-button-div-mobile{
         display: none;
     }
+
+    .add-to-cart-button-desktop-div{
+        width: 331px;
+        height: 48px;
+        background-color: #00338d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: .5rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+
+    .add-to-cart-button-desktop-div:hover{
+        cursor: pointer;
+    }
+
+    .add-to-cart-button-desktop-div p{
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: .25rem;
+    }
+
+    .product-card:hover .add-to-cart-button-desktop-div{
+        display: flex;
+    }
+
+    .product-card:hover{
+        background-color: #EBF7FF80;
+    }
+
+    .product-card:hover .product-name-rating-div .product-name p{
+        color: #0068ff;
+    }
+
+    .product-card:hover .current-price{
+        color: #00338D;
+    }    
+
 }
