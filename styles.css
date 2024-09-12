@@ -322,8 +322,8 @@ body{
         display: flex;
         justify-content: center;
         width: 100%;
-        max-width: 1200px; /* Adjust this to the maximum width of your product cards */
-        margin: 0 auto; /* Center the product container */
+        max-width: 1200px; 
+        margin: 0 auto; 
     }
 
     .product-list{
