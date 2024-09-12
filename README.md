@@ -13,4 +13,4 @@ To further enhance this project, I could incorporate a frontend framework like R
 
 ## Live Link
 
-[Live Link](https://tid213.github.io/joshua-tidwell-test-project/)
+[Joshua Tidwell - Junior Developer Test Project](https://tid213.github.io/joshua-tidwell-test-project/)
